@@ -12,7 +12,7 @@ def load_model():
 model = load_model()
 
 # คลาสของดอกไม้
-class_names = ['Daisy', 'Dandelion', 'Roses', 'Sunflowers', 'Tulips']
+class_names = [ 'Dandelion','Daisy','Tulips','Sunflowers','Roses']
 
 # ฟังก์ชันประมวลผลภาพ
 def preprocess_image(image):
